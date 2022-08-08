@@ -9,7 +9,6 @@ import java.util.Properties;
 
 public class IntegrationTestBase {
 
-    @Value("${base_url}")
     private static final Properties m_properties = new Properties();
 
         protected static String getProperty(String key) {
